@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+const ll mod = 1e9 + 7;
+
+
+void solve()
+{
+    int a,b;
+    cin>>a>>b;
+    cout<<((a*b)/2+(a*b)%2)<<endl;
+    
+
+
+
+}
+
+int main()
+{
+    
+    int t;
+    cin>>t;
+    while(t)
+    {
+        solve();
+        --t;
+    }
+
+    return 0;
+}
